@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="nuts.css">
+</head>
+<body>
+    <button onclick="topFunction()" id="topBtn" title="Go to top">&uArr;</button>
+    <div id="navbar">
+        <ul>
+            <li>
+                <img id="logoSmall" src="./images/logo.png" alt="">
+            </li>
+
+            <li>
+                <a href="./home.html">Home</a>
+            </li>
+            <li>
+                <a href="./seeds.html">Products</a>
+            </li>
+            <li >
+                <a href="./about.html">About</a>
+            </li>
+            <li >
+                <a href="./contactUs.html">Contact Us</a>
+            </li>
+
+            <li class="cart">
+                <a href="./index.html">Log Out</a>
+            </li>
+            <li id="userDetails">
+                Hello, <span id="loggedUser"></span>
+            </li>
+            <li id="userImg">
+                <img id="imag" src="./images/profile.png" alt="">
+            </li>
+            <li class="cart">
+                <a href="./cart.html">Cart ( <span id="cartNum"></span> )</a>
+            </li>
+            
+            
+        </ul>
+    </div>
+        
+    <div class="clearfix">
+        
+    </div>
+
+    <div class="prods">
+        <div id="categories">
+            <p style="color: white; background-color: #032142; margin: auto; padding: 5px; border-radius: 3px; text-align: center;">Products</p>
+            <ul id="cat">
+                <li>
+                    <a href="./seeds.html" class="active">
+                        <i class="fas fa-home icon"></i>
+                        Seeds
+                    </a>
+                </li>
+                <li><a href="./nuts.html">
+                        <i class="fas fa-rss icon"></i>
+                        Nuts
+                    </a>
+                </li>
+                <li><a href="sweets.html">
+                        <i class="fas fa-address-book icon"></i>
+                        Sweets
+                    </a>
+                </li>
+                <li><a href="drinks.html">
+                    <i class="fas fa-user icon"></i>
+                        Drinks
+                    </a>
+                </li>
+            </ul>
+    
+        </div>
+        <div id="preview">
+            <p style="color: white; background-color: #032142; margin:0px 0px 0px 0px; padding: 5px; border-radius: 3px; text-align: center;">Drinks</p>
+            <div class="flexer">
+                <div>
+                    <img class="previewImg" src="./images/pistachio.png" alt="">
+    
+                </div>
+                <div>
+                    <div class="previewBackground">
+                        <div class="previewParts">
+                            <div class="previewSubParts">
+                                <p class="previewTags">Name</p>
+                                <p class="previewName"> Pistachio</p>
+                            </div>
+                            <div class="previewSubParts">
+                                <p class="previewTags">Price</p>
+                                <p class="previewPrice">250 EGP</p>
+                            </div>
+                            
+                        </div>
+                        <div class="previewParts">
+                            <div class="previewSubParts">
+                                <p class="previewTags">Quantity</p>
+                                <p class="previewName">250 gm</p>
+                            </div>
+                            <div class="previewSubParts" id="quality">
+                                <p class="previewTags">Quality</p>
+                                <p class="previewQuality">Premium</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <button id="back" onclick="back()">
+                        &lt; Back
+                    </button>
+                </div>
+                
+            </div>
+            
+            
+            
+
+            
+
+        </div>
+        <div id="details">
+            <p style="color: white; background-color: #032142; margin:0px -15px 0px 0px; padding: 5px; border-radius: 3px; text-align: center;">Nuts</p>
+            <div class="elements water" >
+                <img class="cardImg" src="./images/water.png" alt="">
+                <div class="elementDetails">
+                    <p class="elementName">Water</p>
+                    <p class="elementPrice">5 EGP</p>
+                    <button class="preview" onclick="preview(event)" id="water">
+                        Preview
+                    </button>
+                    <button class="add" onclick="add(event)" name="water">
+                        Add
+                    </button>
+                </div>
+                
+            </div>
+            <div class="elements can" >
+                <img style="width: 150px; height: 150px; border-radius: 3px;" src="./images/can.png" alt="">
+                <div class="elementDetails">
+                    <p class="elementName">Can</p>
+                    <p class="elementPrice">10 EGP</p>
+                    <button class="preview" id="can" onclick="preview(event)">
+                        Preview
+                    </button>
+                    <button class="add" onclick="add(event)" name="can">
+                        Add
+                    </button>
+                </div>
+            </div>
+            <div class="elements juice" >
+                <img style="width: 150px ;height: 150px; border-radius: 3px;" src="./images/juice.png" alt="">
+                <div class="elementDetails">
+                    <p class="elementName">Juice</p>
+                    <p class="elementPrice">7 EGP</p>
+                    <button class="preview" onclick="preview(event)" id="juice">
+                        Preview
+                    </button>
+                    <button class="add" onclick="add(event)" name="juice">
+                        Add
+                    </button>
+                </div>
+            </div>
+            <div class="elements milk" >
+                <img style="width: 150px ;height: 150px; border-radius: 3px;" src="./images/milk.png" alt="">
+                <div class="elementDetails">
+                    <p class="elementName">Milks</p>
+                    <p class="elementPrice">12 EGP</p>
+                    <button class="preview" id="milk" onclick="preview(event)">
+                        Preview
+                    </button>
+                    <button class="add" onclick="add(event)" name="milk">
+                        Add
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    
+
+    
+    <div class="footer">
+        <div>
+            <img id="logo" src="./images/logo.png" alt="">
+        </div>
+        <div>
+            <p class="footerText">Designed By: Ahmed Sanad Ibrahim</p>
+            <p class="footerText">Phone No.: +201090338553</p>
+            <p class="footerText" style="display: inline;">Email: </p>
+            <a id="mail" href="mailto:a.sanad200048@gmail.com">a.sanad200048@gmail.com</a>
+        </div>
+        
+        
+        
+
+    </div>
+    <script src="./nuts.js"></script>
+</body>
+</html>

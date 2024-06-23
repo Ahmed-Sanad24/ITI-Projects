@@ -1,0 +1,281 @@
+#topBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    border: none; 
+    background-color: rgb(189, 39, 39); 
+    color: white; 
+    cursor: pointer; 
+    padding: 10px 20px; 
+    border-radius: 30px; 
+    font-size: 30px; 
+  }
+  
+#topBtn:hover {
+    background-color: #555; 
+}
+
+#loggedUser{
+    color: aqua;
+    font-weight: bold;
+    font-size: larger;
+}
+body{
+    background-color: #dddddd;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+a:active{
+    color: #0c4d92;
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:#052f5c;
+    border-radius: 3px;
+}
+li a:active{
+    background-color:#b6d5f7;
+    border-radius: 3px;
+    color: #052f5c;
+}
+#navbar{
+    background-color: #0c4d92;
+    padding: 7px;
+    border-radius: 3px;
+}
+#userImg{
+    float: right;
+}
+#imag{
+    width: 33px;
+    border-radius: 20px;
+
+}
+.cart{
+    float: right;
+    margin: 10px 10px;
+    color: rgb(218, 226, 252);
+    background-color: #032142;
+    padding: -5px;
+    border-radius: 3px;
+    margin: 0px 10px 0px 0px;
+}
+#cartNum{
+    color: aqua;
+    font-size: large;
+}
+#userDetails{
+    float: right;
+    margin: 10px 10px;
+    color: rgb(218, 226, 252);
+}
+#imgBox{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    
+}
+#sliderImg{
+    object-fit: contain;
+    width: 500px;
+    height: 300px;
+
+}
+.slider{ 
+    display: inline-block;
+}
+.align{
+    margin: auto;
+    
+}
+.arrow{
+    clear: both;
+    background-color: #0c4d92;
+    color: white;
+
+}
+.clearfix{
+    
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    
+}
+
+
+
+
+#details{
+    width:auto;
+    height: auto;
+    background-color: #f1f1f1;
+    margin: 5px;
+    border-radius: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: block;
+}
+
+
+
+.prodSummary{
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+}
+.prodSummaryParts{
+    background-color: #032142;
+    border-radius: 3px;
+    margin-right: 5px;
+
+}
+#priceNo{
+    font-size:x-large;
+    color: greenyellow;
+    
+
+}
+.prodSummaryPart3{
+    display: flex;
+    
+    
+    
+}
+.minus{
+    text-align: center;
+    margin: 30px 10px;
+    font-size: x-large;
+    
+}
+button{
+    padding: 10px 15px;
+    border-radius: 50px;
+    border-width: 0px;
+    background-color: #032142;
+    color: #f1f1f1;
+    font-size: large;
+    font-weight: bold;
+}
+.plus{
+    text-align: center;
+    margin: 30px 10px;
+    font-size: x-large;
+}
+.del{
+    text-align: center;
+    margin: 30px 10px;
+    font-size: x-large;
+}
+.del button{
+    background-color: red;
+}
+.no{
+    text-align: center;
+    margin: 30px 10px;
+    font-size: xx-large;
+}
+
+.imgSummary{
+    width: 130px;
+    height: 100px;
+    margin-left: 10px;
+}
+.nameSummary{
+    text-align: center;
+    margin: 35px 20px;
+    font-size: x-large;
+    color: #f1f1f1;
+    width: 170px;
+    
+}
+.quantitySummary{
+    text-align: center;
+    margin: 35px 10px 0px 10px; 
+    font-size: x-large;
+    
+
+    
+}
+#submitBox{
+    text-align: center;
+    margin: auto;
+}
+#submit{
+    text-align: center;
+    margin: auto;
+}
+#msg{
+    background-color: rgb(252, 28, 28);
+    margin-left: 490px;
+    margin-right: 490px;
+    color: #f1f1f1;
+    border-radius: 3px;
+    padding: 3px;
+    display: none;
+
+}
+#total{
+    background-color: #0c4d92;
+    padding: 5px 10px;
+    font-size: x-large;
+    border-radius: 30px;
+    color: #f1f1f1;
+    margin-left: 30px;
+    
+}
+#totalPrice{
+    padding: 5px;
+    color: greenyellow;
+}
+.footer{
+    margin-top: 10px;
+    background-color:#0c4d92;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: left;
+    display: flex;
+  }
+  .footerText{
+    color: #f1f1f1;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-decoration: wavy;
+  }
+  #logo{
+    width: 130px;
+    margin-bottom: -20px;
+  }
+  #logoSmall{
+    width: 50px;
+    margin-bottom: -20px;
+    margin-top: -5px;
+  }
+  #mail{
+    color:#011122;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: large;
+  }

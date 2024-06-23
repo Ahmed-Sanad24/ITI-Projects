@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Commerce Website Login</title>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            Login Page
+        </div>
+        <hr width="400">
+        
+        <div class="inputs">
+            <div class="content">
+                <p class="labels">Name</p>
+                <input type="text" id="name" placeholder="Enter Your Nickname">
+                
+            </div>
+            <p class="msg" id="msg1">You MUST enter you name (Not Number) <br> and length more than 3 letters</p>
+           
+            
+        </div>
+        <div class="inputs">
+            <div class="content">
+                <p class="labels">Email</p>
+                <input type="text" id="email" placeholder="Enter Your Email">
+                
+            </div>
+            <div>
+                <p class="msg" id="msg2">Email MUST have '@' and end with '.com'</p>
+            </div>
+            
+            
+        </div>
+        <div class="inputs">
+            <div class="content">
+                <p class="labels">Password</p>
+                <input type="text" id="password" placeholder="Enter Your Password" >
+            </div>
+            <div>
+                <p class="msg" id="msg3">Length MUST be at least 8 characters <br>and includes Capital and Small letters</p>
+            </div>
+            
+        </div>
+        <div class="inputs">
+            <div class="content">
+                <p class="labels">Confirm Password</p>
+                <input type="text" id="confirm" placeholder="Enter Your Password" >
+            </div>
+            <div>
+                <p class="msg" id="msg4">Passwords Do Not Match</p>
+            </div>
+            
+        </div>
+        <br>
+        <button onclick="login()" >
+            Login
+        </button>
+        
+    </div>
+    
+    
+    
+    <script src="./demo.js">
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,258 @@
+#topBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  border: none; 
+  background-color: rgb(189, 39, 39); 
+  color: white; 
+  cursor: pointer; 
+  padding: 10px 20px; 
+  border-radius: 30px; 
+  font-size: 30px; 
+}
+
+#topBtn:hover {
+  background-color: #555; 
+}
+.left{
+  width: 50%;
+  padding: 10px;
+  background-color: #0c4d928c;
+  margin: auto;
+  border-radius: 20px;
+}
+.welcome{
+  text-align: center;
+  font-size: x-large;
+  color: white
+
+}
+#gannet{
+  font-size: xx-large;
+  color: rgb(153, 253, 2);
+}
+
+body{
+  background-color: #dddddd;
+}
+a{
+  color: white;
+  text-decoration: none;
+
+}
+a:active{
+  color: #0c4d92;
+  background-color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color:#052f5c;
+  border-radius: 3px;
+}
+li a:active{
+  background-color:#b6d5f7;
+  border-radius: 3px;
+  color: #052f5c;
+}
+#navbar{
+  background-color: #0c4d92;
+  padding: 7px;
+  border-radius: 3px;
+}
+#userImg{
+  float: right;
+}
+#loggedUser{
+  color: aqua;
+  font-weight: bold;
+  font-size: larger;
+}
+#imag{
+  width: 33px;
+  border-radius: 20px;
+
+}
+.cart{
+  float: right;
+  margin: 10px 10px;
+  color: rgb(218, 226, 252);
+  background-color: #032142;
+  padding: -5px;
+  border-radius: 3px;
+  margin: 0px 10px 0px 0px;
+}
+#cartNum{
+  color: aqua;
+  font-size: large;
+}
+#userDetails{
+  float: right;
+  margin: 10px 10px;
+  color: rgb(218, 226, 252);
+}
+#imgBox{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  
+}
+#sliderImg{
+  object-fit: contain;
+  width: 500px;
+  height: 300px;
+
+}
+.slider{ 
+  display: inline-block;
+}
+.align{
+  margin: auto;
+  
+}
+.arrow{
+  clear: both;
+  background-color: #0c4d92;
+  color: white;
+
+}
+.clearfix{
+  
+  clear: both;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  
+}
+
+
+
+
+
+.footer{
+  margin-top: 10px;
+  background-color:#0c4d92;
+  padding: 10px;
+  border-radius: 3px;
+  text-align: left;
+  display: flex;
+}
+.footerText{
+  color: #f1f1f1;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-decoration: wavy;
+}
+#logo{
+  width: 130px;
+  margin-bottom: -20px;
+}
+#logoSmall{
+  width: 50px;
+  margin-bottom: -20px;
+  margin-top: -5px;
+}
+#mail{
+  color:#011122;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: large;
+}
+
+
+.slideshow-container {
+    max-width: 1100px;
+    max-height: 500px;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color:black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+  
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: 0.5}
+    to {opacity: 1}
+  }
